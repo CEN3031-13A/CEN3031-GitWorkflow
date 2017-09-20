@@ -5,8 +5,10 @@ function add(){
 }
 
 function subtract(){
-	//Implement this
-	
+    //Implement this
+    var v1=parseInt(document.getElementById("input1").value);
+    var v2=parseInt(document.getElementById("input2").value);
+    alert("Resutl = " + (v1 - v2).toString());
 	
 }
 
